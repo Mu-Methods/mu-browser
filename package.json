@@ -1,0 +1,21 @@
+{
+  "name": "mu-browser",
+  "version": "0.0.0",
+  "description": "Mu browser API",
+  "main": "build/index.js",
+  "repository": "https://github.com/Mu-Methods/plugin-template.git",
+  "author": "Mu Methods (frankiebee)",
+  "scripts": {
+    "compile": "tsc",
+    "test": "yarn compile && node tests/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "tape": "^5.6.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "ssb-browser-core": "^14.0.0"
+  }
+}
